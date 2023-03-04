@@ -1,9 +1,17 @@
-import React from "react"
+import React, { useEffect } from "react"
 import "./validationSquare.css"
-function ValidationSquare() {
+function ValidationSquare({ index, data, handleChange }) {
   return (
     <>
-      <input className="main-square"></input>
+      <input
+        defaultValue={data}
+        name="code-number"
+        id="validationInput"
+        typeof="number"
+        maxLength={1}
+        className="main-square"
+        onChange={(e) => handleChange(e.target.value, index)}
+      ></input>
     </>
   )
 }

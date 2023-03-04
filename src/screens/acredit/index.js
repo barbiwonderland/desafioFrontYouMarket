@@ -5,6 +5,7 @@ import "./acredit.css"
 
 function Acredit() {
   const [amount, setAmount] = useState(0)
+
   return (
     <>
       <Navbar backIcon={true} title="Cuanto queres ingresar?" />
@@ -13,14 +14,15 @@ function Acredit() {
         <div className="currency-wrap">
           <span className="currency-code">$</span>
           <input
-            value={amount}
-            onChange={(e) => setAmount(e.target.value)}
+            onChange={(e) => {
+              setAmount(e.target.value)
+            }}
             style={{ width: `${amount.length}ch` }}
             minLength="1"
             maxLength="9"
             type="text"
             name=""
-            placeholder="0"
+            placeholder={0}
           />
         </div>
 
