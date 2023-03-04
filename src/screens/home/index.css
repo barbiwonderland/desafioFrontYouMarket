@@ -1,0 +1,68 @@
+.wrapper-home {
+  height: calc(100vh - 80px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.info-section {
+  width: 400px;
+
+  height: 140px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 10px 0 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-self: center;
+}
+.home-title {
+  display: inline-flex;
+  font-size: 20px;
+  align-items: center;
+  margin-left: 13px;
+  width: 100%;
+}
+.info-section :nth-child(1) span {
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 14px;
+}
+.info-section select {
+  font-size: 20px;
+  margin-left: 4px;
+  font-weight: 700;
+  width: 65%;
+  border: none !important;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+.actions-home {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+.action-subtitles {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 5%;
+}
+.item-action p {
+  color: var(--main-orange);
+  text-decoration: underline;
+}
+.last-movements {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  width: 90vw;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-self: center;
+}

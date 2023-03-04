@@ -1,0 +1,14 @@
+.notFound-wrapper {
+  display: flex;
+  height: calc(100vh - 80px);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.notFound-wrapper img {
+  width: 80vw;
+  max-height: 50vh;
+  height: auto;
+  object-fit: contain;
+}

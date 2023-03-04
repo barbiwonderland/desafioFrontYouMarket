@@ -1,0 +1,37 @@
+.wrapper-acredit {
+  margin-top: 5%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+.wrapper-acredit input,
+input::placeholder {
+  font-size: 48px;
+  text-align: center;
+  color: black;
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  text-align: start;
+  width: 36px;
+}
+
+.self-start {
+  align-self: self-start;
+}
+
+.currency-code {
+  margin-right: 15px;
+}
+
+.currency-wrap {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  align-items: center;
+  overflow: hidden;
+}

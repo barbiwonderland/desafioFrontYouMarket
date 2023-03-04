@@ -1,0 +1,29 @@
+.verification-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 134px;
+  text-align: center;
+  font-size: 14px;
+  text-align: -webkit-center;
+}
+.verification-wrapper form:first-child {
+  margin-bottom: 23px;
+}
+.verification-wrapper form p:nth-child(2) {
+  font-weight: 500;
+  font-size: 20px;
+}
+.verification-wrapper form:last-child {
+  margin-bottom: 60px;
+  margin-top: 5px;
+}
+.square-validationGroup {
+  margin-bottom: 61px;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 10px;
+}

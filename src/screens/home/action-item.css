@@ -1,0 +1,10 @@
+.item-action p {
+  text-decoration: underline;
+  color: var(--main-orange);
+  text-transform: capitalize;
+  font-size: 12px;
+}
+.item-action img {
+  width: 45px;
+  height: 40px;
+}

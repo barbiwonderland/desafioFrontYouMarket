@@ -1,0 +1,27 @@
+.awards-actions button {
+  background: none;
+  border: none;
+  color: var(--main-orange);
+  text-decoration: underline;
+  font-weight: 600;
+  margin: 15px 0 15px 0;
+}
+.bold-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+}
+.accounts-container {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px auto;
+  align-items: center;
+  overflow-y: visible;
+  gap: 10px;
+  overflow-y: scroll;
+  max-height: 400px;
+}
+.accounts-container button {
+  align-self: center;
+}

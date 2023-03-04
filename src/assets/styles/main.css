@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400&display=swap");
+:root {
+  --main-green: rgba(1, 173, 135, 1);
+  --main-grey: rgba(196, 196, 196, 1);
+  --main-orange: rgba(251, 121, 7, 1);
+}
+html {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(238, 238, 238, 1);
+}
+body {
+  margin: 0;
+}
+
+.bg-green {
+  background-color: var(--main-green);
+}
+.bg-grey {
+  background-color: var(--main-grey);
+}
+
+.color-danger {
+  color: rgba(255, 75, 75, 0.47);
+}
+.color-success {
+  color: rgba(155, 218, 158, 1);
+}
+.align-start {
+  display: flex;
+  align-self: start;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.align-center {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}

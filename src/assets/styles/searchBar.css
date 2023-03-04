@@ -1,0 +1,28 @@
+.bar-wrapper {
+  height: 40px;
+  width: 100%;
+  background: #e5e5e5;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.bar-wrapper input {
+  width: 95%;
+  background: none;
+  border: none;
+}
+.bar-wrapper input:focus {
+  border: none;
+  outline: none;
+}
+.bar-wrapper input::placeholder {
+  font-size: 14px;
+  color: grey;
+  text-align: start;
+  padding: 30px;
+  font-weight: 500;
+  line-height: 17px;
+}
+.search-icon {
+  margin-left: 1%;
+}
