@@ -15,13 +15,14 @@
   border: none;
   outline: none;
 }
-.bar-wrapper input::placeholder {
+.bar-wrapper input::-webkit-input-placeholder {
   font-size: 14px;
   color: grey;
   text-align: start;
   padding: 30px;
   font-weight: 500;
   line-height: 17px;
+  width: 100%;
 }
 .search-icon {
   margin-left: 1%;

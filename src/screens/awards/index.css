@@ -20,8 +20,13 @@
   overflow-y: visible;
   gap: 10px;
   overflow-y: scroll;
-  max-height: 400px;
 }
 .accounts-container button {
   align-self: center;
+}
+.wrapper-awards {
+  display: flex;
+  height: calc(100vh - 90px);
+  justify-content: space-between;
+  flex-direction: column;
 }
