@@ -5,10 +5,13 @@
   text-decoration: underline;
   font-weight: 600;
   margin: 15px 0 15px 0;
+  font-size: 12px;
 }
 .bold-subtitle {
+  margin-top: 13px;
   font-weight: 700;
   font-size: 18px;
+  -webkit-text-stroke: thin;
 }
 .accounts-container {
   width: 90vw;
@@ -27,6 +30,12 @@
 .wrapper-awards {
   display: flex;
   height: calc(100vh - 90px);
-  justify-content: space-between;
   flex-direction: column;
+}
+.award-subtitle {
+  font-size: 14px;
+  font-weight: 500px;
+}
+.awards-actions {
+  margin-left: 10px;
 }

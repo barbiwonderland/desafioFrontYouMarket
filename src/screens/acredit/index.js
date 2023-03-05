@@ -10,7 +10,7 @@ function Acredit() {
     <>
       <Navbar backIcon={true} title="Cuanto queres ingresar?" />
       <div className="wrapper-acredit">
-        <div className="self-start">Saldo</div>
+        <div className=" title-acredit self-start">Saldo</div>
         <div className="currency-wrap">
           <span className="currency-code">$</span>
           <input
@@ -21,11 +21,11 @@ function Acredit() {
             minLength="1"
             maxLength="9"
             type="text"
+            pattern="[0-9]+"
             name=""
             placeholder={0}
           />
         </div>
-
         <Button title={"continuar"} color={"grey"} />
       </div>
     </>

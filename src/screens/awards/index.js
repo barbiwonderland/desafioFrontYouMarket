@@ -10,8 +10,8 @@ function Awards() {
     <>
       <Navbar title={"A quien queres premiar?"} backIcon={true} />
       <div className="wrapper-awards">
-        <div className="bold-subtitle">Nuevas cuentas</div>
         <div className="awards-actions">
+          <div className="bold-subtitle">Nuevas cuentas</div>
           <button>
             <img src={AgregarCuenta} alt="" />
             <div className="">agregar cuenta</div>
@@ -24,7 +24,7 @@ function Awards() {
 
         <div className="accounts-container">
           <SearchBar />
-          <div className="align-start mt-5 ">Tus cuentas</div>
+          <div className="align-start mt-5 award-subtitle ">Tus cuentas</div>
           <div className="account-wrapper"></div>
           <AccountItem
             title={"Cuenta 1"}
@@ -62,7 +62,7 @@ function Awards() {
             img={"C7"}
           />{" "}
         </div>
-        <div className="align-center">
+        <div className="align-end align-center">
           <Button color={"grey"} title={"continuar"} />
         </div>
       </div>

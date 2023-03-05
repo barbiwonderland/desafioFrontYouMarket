@@ -1,9 +1,7 @@
 .wrapper-acredit {
-  margin-top: 5%;
+  margin-top: 91px;
   display: flex;
-  align-content: center;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 10px 20px;
 }
@@ -23,7 +21,10 @@ input::placeholder {
 .self-start {
   align-self: self-start;
 }
-
+.title-acredit {
+  font-size: 14px;
+  font-weight: 500;
+}
 .currency-code {
   margin-right: 15px;
 }
@@ -31,7 +32,17 @@ input::placeholder {
 .currency-wrap {
   display: flex;
   justify-content: center;
-  height: 350px;
+  margin-top: 51px;
   align-items: center;
   overflow: hidden;
+}
+.flex-end {
+  margin-top: auto;
+}
+.wrapper-acredit div:last-child {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  display: flex;
+  align-items: center;
 }

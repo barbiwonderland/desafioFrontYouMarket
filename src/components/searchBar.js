@@ -6,7 +6,7 @@ function SearchBar() {
     <>
       <div className="bar-wrapper">
         <div className="search-icon">
-          <FaSearch color="grey" />
+          <FaSearch color="grey" width={20} height={20} />
         </div>
 
         <input type="text" placeholder="Buscar por nombre o email" />

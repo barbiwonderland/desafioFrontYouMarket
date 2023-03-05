@@ -15,9 +15,12 @@ function Auth() {
         "
         >
           <input
+            required
+            minLength={10}
             maxLength={18}
             className="auth-input"
             type="text"
+            pattern="^([0-9]{10})|([A-Za-z0-9._%\+\-]+@[a-z0-9.\-]+\.[a-z]{2,3})$"
             placeholder="CUIT o Correo Electronico"
           />
           {/* los colores pueden ser green o grey */}
@@ -26,7 +29,7 @@ function Auth() {
             title={"Iniciar sesion"}
             func={() => navigate("/verification")}
           />
-          <div className="auth-subtitle mt-5">
+          <div className="auth-subtitle ">
             <u>Aun no tengo cuenta</u>
           </div>
         </form>

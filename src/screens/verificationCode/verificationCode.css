@@ -5,19 +5,20 @@
   align-items: center;
   margin-top: 134px;
   text-align: center;
-  font-size: 14px;
   text-align: -webkit-center;
+  flex-direction: column;
 }
-.verification-wrapper form:first-child {
+.verification-wrapper p:first-child {
   margin-bottom: 23px;
+  font-size: 14px;
 }
-.verification-wrapper form p:nth-child(2) {
+.verification-wrapper p:nth-child(2) {
   font-weight: 500;
   font-size: 20px;
 }
-.verification-wrapper form:last-child {
-  margin-bottom: 60px;
-  margin-top: 5px;
+
+.verification-wrapper p:nth-child(3) {
+  font-size: 14px;
 }
 .square-validationGroup {
   margin-bottom: 61px;
@@ -26,4 +27,5 @@
   justify-content: center;
   margin-top: 60px;
   gap: 10px;
+  flex-direction: row;
 }

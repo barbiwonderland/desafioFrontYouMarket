@@ -8,7 +8,9 @@ function ValidationSquare({ index, data, handleChange }) {
         name="code-number"
         id="validationInput"
         typeof="number"
+        pattern="[0-9]+"
         maxLength={1}
+        required
         className="main-square"
         onChange={(e) => handleChange(e.target.value, index)}
       ></input>

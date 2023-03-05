@@ -14,34 +14,36 @@ function VerificationCode() {
       console.log(otp)
     }
     if (otp.join("") == 11111) {
-      navigate("/")
+      setTimeout(() => {
+        navigate("/")
+      }, 1000)
+    } else {
+      console.log("INVALIDO")
     }
   }
   return (
     <>
       <Navbar title="Nombre de accion" backIcon={true} />
       <div className="verification-wrapper">
-        <form
-          action="
-              "
-        >
-          <p>Te acabamos de enviar un correo a:</p>
-          <p>test@test.com.ar</p>
-          <p>Ingresa el codigo de 6 digitos recibido</p>
+        <p>Te acabamos de enviar un correo a:</p>
+        <p>test@test.com.ar</p>
+        <p>Ingresa el codigo de 6 digitos recibido</p>
 
-          <div className="square-validationGroup">
-            {otp.map((data, index) => {
-              return (
-                <ValidationSquare
-                  index={index}
-                  data={data}
-                  handleChange={handleChange}
-                />
-              )
-            })}
-          </div>
+        <div className="square-validationGroup">
+          {otp.map((data, index) => {
+            return (
+              <ValidationSquare
+                key={index}
+                index={index}
+                data={data}
+                handleChange={handleChange}
+              />
+            )
+          })}
+        </div>
+        <div className="acredit-btn">
           <Button color={"grey"} title="reenviar codigo" />
-        </form>
+        </div>
       </div>
     </>
   )
