@@ -57,7 +57,7 @@ input:focus:valid {
   border-bottom: 3px solid var(--main-green);
 }
 .error-message {
-  display: inline-flex;
+  display: block;
   color: rgb(222, 30, 30);
   font-weight: 900;
   visibility: hidden;

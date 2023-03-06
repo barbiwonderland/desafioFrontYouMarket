@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar"
 import "./verificationCode.css"
 import ValidationSquare from "./validationSquare"
 import { useNavigate } from "react-router-dom"
+import ErrorMessage from "../../components/ErrorMessage"
 function VerificationCode() {
   const navigate = useNavigate()
   const [otp, setOtp] = useState(new Array(6).fill(""))
@@ -44,7 +45,7 @@ function VerificationCode() {
             )
           })}
         </div>
-        <div className="error-message mt-5">Error... codigo invalido</div>
+        <ErrorMessage title="Error... codigo invalido" />
         <div className="validation-btn">
           <Button color={"grey"} title="Reenviar Código" />
         </div>
