@@ -1,13 +1,7 @@
-function PrivateRoute({ component: Component, ...rest }) {
-  // le pongo true apra que siempre deje entrar, esto deberia verificarse realmente
-  const isAuth = true
+import { Navigate } from "react-router-dom"
 
-  return (
-    <Route
-      {...rest}
-      render={(props) =>
-        isAuth ? <Component {...props} /> : <Redirect to="/" />
-      }
-    />
-  )
+export function PrivateRoute({ children }) {
+  //defino que es true la auth pero esto deberia venir de la respuesta de la api
+  const auth = true
+  return auth ? children : <Navigate to="/" />
 }

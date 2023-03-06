@@ -8,7 +8,7 @@ import "./index.css"
 function Awards() {
   return (
     <>
-      <Navbar title={"A quien queres premiar?"} backIcon={true} />
+      <Navbar title={"¿A quién querés premiar?"} backIcon={true} />
 
       <div className="wrapper-awards">
         <div className="awards-actions">

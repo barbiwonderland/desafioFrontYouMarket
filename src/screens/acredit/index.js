@@ -8,7 +8,7 @@ function Acredit() {
 
   return (
     <>
-      <Navbar backIcon={true} title="Cuanto queres ingresar?" />
+      <Navbar backIcon={true} title="¿Cuánto querés ingresar?" />
       <div className="wrapper-acredit">
         <div className=" title-acredit self-start">Saldo</div>
         <div className="currency-wrap">

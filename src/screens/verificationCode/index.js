@@ -17,7 +17,7 @@ function VerificationCode() {
       //aca seria el codigo correcto que viene de una api
       if (otp.join("") === "111111") {
         setTimeout(() => {
-          navigate("/")
+          navigate("/home")
         }, 1000)
       } else {
         document.querySelector(".error-message").style.visibility = "visible"
@@ -26,11 +26,11 @@ function VerificationCode() {
   }, [otp])
   return (
     <>
-      <Navbar title="Nombre de accion" backIcon={true} />
+      <Navbar title="Nombre de Acción" backIcon={true} />
       <div className="verification-wrapper">
         <p>Te acabamos de enviar un correo a:</p>
         <p>test@test.com.ar</p>
-        <p>Ingresa el codigo de 6 digitos recibido</p>
+        <p>Ingresa el código de 6 dígitos recibido</p>
 
         <div className="square-validationGroup mb-15">
           {otp.map((data, index) => {
@@ -46,7 +46,7 @@ function VerificationCode() {
         </div>
         <div className="error-message mt-5">Error... codigo invalido</div>
         <div className="validation-btn">
-          <Button color={"grey"} title="reenviar codigo" />
+          <Button color={"grey"} title="Reenviar Código" />
         </div>
       </div>
     </>

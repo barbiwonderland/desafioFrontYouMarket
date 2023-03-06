@@ -1,8 +1,9 @@
 import React from "react"
 import { useNavigate } from "react-router-dom"
-import { img404 } from "../assets/images"
-import Button from "../components/Button"
-import Navbar from "../components/Navbar"
+import { img404 } from "../../assets/images"
+import Button from "../../components/Button"
+import Navbar from "../../components/Navbar"
+
 import "./notFound.css"
 function NotFound() {
   const navigate = useNavigate()

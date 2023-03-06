@@ -22,7 +22,7 @@ function Home() {
   })
   return (
     <>
-      <Navbar title={"Hola Test!"} backIcon={false} />
+      <Navbar title={"¡Hola Test!"} backIcon={false} />
       {loading ? (
         <div className="wrapper-loading">
           <Loading />
@@ -41,9 +41,9 @@ function Home() {
                 </span>
               </div>
               <div className="home-title">
-                Mi accion:{" "}
+                Mi acción:{" "}
                 <select name="">
-                  <option value="0">Nombre de accion:</option>
+                  <option value="0">Nombre de Acción</option>
                 </select>
               </div>
             </div>
@@ -65,7 +65,7 @@ function Home() {
             </div>
           </div>
           <div className="end-home">
-            <div className="action-subtitles">Ultimos movimientos</div>
+            <div className="action-subtitles">Últimos Movimientos</div>
             <div className="last-movements">
               <MovementItem
                 type={"income"}
