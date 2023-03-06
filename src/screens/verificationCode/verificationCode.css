@@ -21,11 +21,13 @@
   font-size: 14px;
 }
 .square-validationGroup {
-  margin-bottom: 61px;
   width: 80vw;
   display: flex;
   justify-content: center;
   margin-top: 60px;
   gap: 10px;
   flex-direction: row;
+}
+.validation-btn {
+  margin-top: 61px;
 }

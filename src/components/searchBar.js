@@ -9,7 +9,11 @@ function SearchBar() {
           <FaSearch color="grey" width={20} height={20} />
         </div>
 
-        <input type="text" placeholder="Buscar por nombre o email" />
+        <input
+          maxLength={30}
+          type="text"
+          placeholder="Buscar por nombre o email"
+        />
       </div>
     </>
   )

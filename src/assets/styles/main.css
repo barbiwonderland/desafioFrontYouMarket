@@ -43,7 +43,9 @@ body {
   margin-top: auto;
   display: flex;
 }
-
+.mb-15 {
+  margin-bottom: 15px;
+}
 /*aplica a todos los inputs*/
 input:focus {
   outline: none;
@@ -53,4 +55,10 @@ input:focus:invalid {
 }
 input:focus:valid {
   border-bottom: 3px solid var(--main-green);
+}
+.error-message {
+  display: inline-flex;
+  color: rgb(222, 30, 30);
+  font-weight: 900;
+  visibility: hidden;
 }

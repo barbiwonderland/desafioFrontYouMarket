@@ -14,12 +14,41 @@
   font-size: 12px;
 }
 .radioBtn {
+  /*   -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; */
+  appearance: none;
   width: 30px;
   height: 30px;
   background: #f9f8f8;
   border-radius: 360px;
   position: absolute;
   right: 0;
+}
+input[type="radio"]:focus {
+  width: 30px;
+  height: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: none;
+  outline: 1px solid var(--main-green);
+  outline-offset: 2px;
+  background-color: var(--main-green);
+}
+
+input[type="radio"]:checked {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: none;
+  outline: max(2px, 0.15em) solid var(--main-green);
 }
 .account-title {
   text-transform: capitalize;

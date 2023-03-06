@@ -9,6 +9,7 @@ function Awards() {
   return (
     <>
       <Navbar title={"A quien queres premiar?"} backIcon={true} />
+
       <div className="wrapper-awards">
         <div className="awards-actions">
           <div className="bold-subtitle">Nuevas cuentas</div>
@@ -62,7 +63,7 @@ function Awards() {
             img={"C7"}
           />{" "}
         </div>
-        <div className="align-end align-center">
+        <div className="align-end mb-15 align-center">
           <Button color={"grey"} title={"continuar"} />
         </div>
       </div>
